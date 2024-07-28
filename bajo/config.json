@@ -1,0 +1,4 @@
+{
+  "alias": "dbrpxjs",
+  "dependencies": ["dobo-restproxy"]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "dobo-restproxy-jsonserver",
+  "version": "1.0.0",
+  "description": "Jsonserver support for Dabo Restproxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ardhi/dobo-restproxy-jsonserver.git"
+  },
+  "keywords": [
+    "restproxy",
+    "jsonserver",
+    "db",
+    "driver",
+    "bajo",
+    "framework",
+    "modular"
+  ],
+  "author": "Ardhi Lukianto <ardhi@lukianto.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ardhi/dobo-restproxy-jsonserver/issues"
+  },
+  "homepage": "https://github.com/ardhi/dobo-restproxy-jsonserver#readme",
+  "dependencies": {
+  }
+}
