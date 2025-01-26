@@ -1,6 +1,6 @@
 {
   "name": "dobo-restproxy-jsonserver",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Jsonserver support for Dabo Restproxy",
   "main": "index.js",
   "scripts": {
