@@ -1,7 +1,7 @@
 const ops = ['lt', 'lte', 'gt', 'gte', 'ne']
 
 async function recordFind ({ url, opts, ext, schema, filter = {}, options = {} } = {}) {
-  const { isPlainObject } = this.app.bajo.lib._
+  const { isPlainObject } = this.lib._
   const query = filter.query ?? {}
   for (const k in query) {
     const v = query[k]
