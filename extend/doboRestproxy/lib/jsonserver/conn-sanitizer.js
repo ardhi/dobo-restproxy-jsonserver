@@ -5,7 +5,7 @@ const keys = {
 
 async function connSanitizer (conn) {
   const { importModule } = this.app.bajo
-  const generic = await importModule('doboRestproxy:/dobo/generic/conn-sanitizer.js')
+  const generic = await importModule('doboRestproxy:/extend/dobo/generic/conn-sanitizer.js')
   conn.connection.auth = false
   conn.connection.extra = { cacheBuster: false }
   const result = await generic.call(this, conn, keys)
