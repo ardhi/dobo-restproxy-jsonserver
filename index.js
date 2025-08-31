@@ -1,7 +1,7 @@
 async function factory (pkgName) {
   const me = this
 
-  class BajoRestproxyJsonserver extends this.lib.Plugin {
+  class BajoRestproxyJsonserver extends this.app.pluginClass.base {
     static alias = 'dbrpxjs'
     static dependencies = ['dobo', 'dobo-restproxy']
 
