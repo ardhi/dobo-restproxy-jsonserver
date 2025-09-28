@@ -1,22 +1,25 @@
 # dobo-restproxy-jsonserver
 
-Plugin name: **doboRestproxyJsonserver**, alias: **dbrpxjs**
-
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/ardhi/dobo-restproxy-jsonserver) ![NPM Version](https://img.shields.io/npm/v/dobo-restproxy-jsonserver)
 
-> <br />**Attention**: I do NOT accept any pull request at the moment, thanks!<br /><br />
+> <br />**Attention**: I do NOT accept any pull requests at the moment, thanks! ([Why?](https://github.com/ardhi/bajo/blob/main/tutorial/00-welcome.md#contribution))<br /><br />
 
-Jsonserver support for [Dobo Restproxy](https://github.com/ardhi/dobo-restproxy)
+Jsonserver support for [dobo-restproxy](https://github.com/ardhi/dobo-restproxy)
 
 ## Installation
 
-Goto your ```<bajo-base-dir>``` and type:
+First, go to your ```{app-dir}``` and run the following command in your terminal:
 
 ```bash
-$ npm install dobo-restproxy-jsonserver
+$ npm install dobo dobo-restproxy dobo-restproxy-jsonserver
 ```
 
-Now open your ```<bajo-data-dir>/config/.plugins``` and put ```dobo-restproxy-jsonserver``` in it
+Next, open the file located at ```{data-dir}/config/.plugins``` and add ```dobo```, ```dobo-restproxy``` ```dobo-restproxy-jsonserver```
+
+## Documentations
+
+- [Config Object](tutorial/00-config.md)
+- [API](https://ardhi.github.io/dobo-restproxy-jsonserver)
 
 ## License
 

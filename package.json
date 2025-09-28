@@ -4,7 +4,8 @@
   "description": "Jsonserver support for Dabo Restproxy",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-doc": "jsdoc -c .jsdoc.conf.json",
+    "test": "mocha"
   },
   "type": "module",
   "bajo": {
@@ -29,6 +30,8 @@
     "url": "https://github.com/ardhi/dobo-restproxy-jsonserver/issues"
   },
   "homepage": "https://github.com/ardhi/dobo-restproxy-jsonserver#readme",
-  "dependencies": {
+  "devDependencies": {
+    "clean-jsdoc-theme": "^4.3.0",
+    "jsdoc-plugin-intersection": "^1.0.4"
   }
 }
