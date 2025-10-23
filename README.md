@@ -2,7 +2,7 @@
 
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/ardhi/dobo-restproxy-jsonserver) ![NPM Version](https://img.shields.io/npm/v/dobo-restproxy-jsonserver)
 
-> <br />**Attention**: I do NOT accept any pull request at the moment, thanks! ([Why?](CONTRIBUTING.md))<br /><br />
+> <br />**Attention**: I do NOT accept any pull request at the moment, thanks! ([Why?](wiki/CONTRIBUTING.md))<br /><br />
 
 Jsonserver support for [dobo-restproxy](https://github.com/ardhi/dobo-restproxy)
 
@@ -18,9 +18,9 @@ Next, open the file located at ```{data-dir}/config/.plugins``` and add ```dobo`
 
 ## Documentations
 
-- [Config Object](tutorial/00-config.md)
+- [Config Object](wiki/CONFIG.md)
 - [API](https://ardhi.github.io/dobo-restproxy-jsonserver)
-- [Contributing](CONTRIBUTING.md)
+- [Contributing](wiki/CONTRIBUTING.md)
 
 ## Hire Me
 
